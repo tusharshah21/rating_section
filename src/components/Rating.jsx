@@ -56,8 +56,12 @@ const Rating = () => {
           </div>
         ) : (
           <div className="bg-[hsl(213,19%,18%)] text-[hsl(217,12%,63%)] p-6 rounded-lg shadow-lg text-center">
-            <h2 className="text-xl font-bold mb-4">Thank You!</h2>
-            <p className="">Your rating has been submitted.</p>
+          <p>
+            You selected {value} out of 5
+          </p>
+            <h2 className="text-2xl font-bold my-2 text-white">Thank You!</h2>
+            <p className="text-md">We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!</p>
           </div>
         )}
       </div>
